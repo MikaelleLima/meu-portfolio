@@ -3,31 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Responsiva</title>
+    <title>ProfMikas - Matemática Básica</title>
     <!-- Link para o Bootstrap via CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Cores em tons pastéis */
+        .bg-pink {
+            background-color: #FA8FB1; /* Rosa claro */
+        }
+        .bg-lilac {
+            background-color: #E6E6FA; /* Lilás pastel */
+        }
+        .bg-blue {
+            background-color: #ADD8E6; /* Azul claro */
+        }
+        .text-pink {
+            color: #FA8FB1;
+        }
+        .text-lilac {
+            color: #E6E6FA;
+        }
+        .text-blue {
+            color: #ADD8E6;
+        }
+    </style>
 </head>
 <body>
 
     <!-- Cabeçalho -->
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Minha Página Responsiva</h1>
+    <header class="bg-pink text-black text-center py-4">
+        <h1>ProfMikas - Matemática Básica</h1>
         <!-- Menu de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Página</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-lilac">
+            <a class="navbar-brand text-blue" href="#">Página Inicial</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#section1">Seção 1</a>
+                        <a class="nav-link text-blue" href="#section1">Operações Básicas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section2">Seção 2</a>
+                        <a class="nav-link text-blue" href="#section2">Potenciação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section3">Seção 3</a>
+                        <a class="nav-link text-blue" href="#section3">Radiciação</a>
                     </li>
                 </ul>
             </div>
@@ -36,28 +57,28 @@
 
     <!-- Corpo da Página -->
     <main>
-        <!-- Seção 1 -->
-        <section id="section1" class="container my-5">
-            <h2 class="text-primary">Seção 1: Introdução</h2>
-            <p class="lead">Esta é a primeira seção do corpo da página, onde você pode adicionar informações introdutórias ou qualquer conteúdo que desejar.</p>
+        <!-- Seção 1: Operações Básicas -->
+        <section id="section1" class="container my-5 bg-lilac p-4 rounded">
+            <h2 class="text-black">Operações Básicas</h2>
+            <p class="lead">As operações básicas da matemática incluem adição, subtração, multiplicação e divisão. Elas são os pilares do cálculo e da aritmética.</p>
         </section>
 
-        <!-- Seção 2 -->
-        <section id="section2" class="container my-5">
-            <h2 class="text-success">Seção 2: Conteúdo</h2>
-            <p class="lead">Aqui você pode adicionar mais conteúdo sobre o tema da página. Use este espaço para expandir seu projeto com mais detalhes.</p>
+        <!-- Seção 2: Potenciação -->
+        <section id="section2" class="container my-5 bg-blue p-4 rounded">
+            <h2 class="text-black">Potenciação</h2>
+            <p class="lead">A potenciação é uma operação matemática que envolve elevar um número a uma determinada potência, multiplicando-o por ele mesmo várias vezes.</p>
         </section>
 
-        <!-- Seção 3 -->
-        <section id="section3" class="container my-5">
-            <h2 class="text-warning">Seção 3: Finalização</h2>
-            <p class="lead">Esta é a última seção do corpo da página, onde você pode concluir o conteúdo ou fornecer mais informações relevantes.</p>
+        <!-- Seção 3: Radiciação -->
+        <section id="section3" class="container my-5 bg-pink p-4 rounded">
+            <h2 class="text-black">Radiciação</h2>
+            <p class="lead">A radiciação é a operação inversa da potenciação, usada para encontrar a raiz de um número, como a raiz quadrada ou a raiz cúbica.</p>
         </section>
     </main>
 
     <!-- Rodapé -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; <span id="year"></span> Minha Página Responsiva. Todos os direitos reservados.</p>
+    <footer class="bg-pink text-white text-center py-3">
+        <p>&copy; <span id="year"></span> ProfMikas - Matemática Básica. Todos os direitos reservados.</p>
     </footer>
 
     <!-- Scripts do Bootstrap e JavaScript -->
